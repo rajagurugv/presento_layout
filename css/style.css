@@ -1,0 +1,332 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ .container{
+     width:1200px;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .flex_container{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: -15px;
+     margin-right: -15px;
+}
+ .flex_item1{
+     width:8.33%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item2{
+     width:16.66%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item3{
+     width:25%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item4{
+     width:33.33%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.flex_item5{
+     width:41.66%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.flex_item6{
+     width:50%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item7{
+     width:58.33%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item8{
+     width:66.66%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item9{
+     width:75%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item10{
+     width:83.33%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item11{
+     width:91.66%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .flex_item12{
+     width:100%;
+     flex: 0 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ .header{
+     background-color:black;
+     padding:15px;
+}
+ .logo{
+     background-color:red;
+     height:40px;
+     width:auto;
+}
+ .nav_bar{
+     background-color:red;
+     height:40px;
+     width:auto;
+}
+ .btn{
+     background-color:red;
+     height:40px;
+     width:auto;
+}
+ .section1{
+     background-color:red;
+     padding:50px;
+}
+ .sec{
+     background-color:black;
+     height:450px;
+}
+ .section2{
+     background-color:black;
+     padding:40px;
+}
+ .sec2_logo{
+     background-color:red;
+     height:40px;
+     width:auto;
+}
+ .section3{
+     background-color: red;
+     padding: 100px;
+}
+ .sec3-cnt{
+     background-color: black;
+     height: 400px;
+     width: auto;
+     padding: 29px;
+}
+ .sec3-clm{
+     background-color: black;
+     padding: 1px;
+}
+ .sec3-clm-cnt{
+     background-color: red;
+     height: 152px;
+     width: auto;
+     margin:10px;
+}
+ .section4{
+     background-color: black;
+     padding: 25px;
+}
+ .sec4_logo{
+     background-color:red;
+     height:80px;
+     width:auto;
+}
+ .section5{
+     background-color: red;
+     padding:70px;
+}
+ .sec5_logo{
+     background-color:black;
+     height:150px;
+     width:auto;
+}
+ .section6{
+     background-color:black;
+     padding:50px;
+}
+ .sec6_cnt1{
+     background-color:red;
+     height:450px;
+}
+ .services_section{
+     background-color:red;
+     padding:30px 0;
+}
+ .services_header{
+     background-color:black;
+     width:auto;
+     height:80px;
+}
+ .services_content{
+     padding:30px 0 0;
+}
+ .services_card{
+     background-color:black;
+     width:auto;
+     height:180px;
+     margin-bottom:15px;
+}
+ .portfolio_section{
+     background-color:black;
+     width:auto;
+     padding:25px;
+}
+ .portfolio_header{
+     background-color:red;
+     width:auto;
+     height:80px;
+}
+ .portfolio_img_section{
+     padding:25px 0 0;
+}
+ .portfolio_img{
+     background-color:red;
+     height:250px;
+     margin-bottom:25px;
+}
+ .testimonials_section{
+     background-color:red;
+     padding:25px 0;
+}
+ .testimonials_header{
+     background-color:black;
+     width:auto;
+     height:80px;
+}
+ .testimonials_content{
+     padding:25px 0 0;
+}
+ .testimonials_card{
+     background-color:black;
+     width:auto;
+     height:300px;
+}
+ .pricing_section{
+     background-color:black;
+     padding:25px 0;
+}
+ .pricing_header{
+     background-color:red;
+     width:auto;
+     height:80px;
+}
+ .pricing_content{
+     padding:25px 0 0;
+}
+ .pricing_card{
+     background-color:red;
+     width:auto;
+     height:450px;
+}
+.faq_section{
+	background-color:red;
+	padding:25px 0;
+}
+.faq_header{
+	background-color:black;
+	width:65%;
+	margin:0 auto;
+	height:80px;
+}
+.faq_cnt_section{
+	padding:20px 0;
+}
+.faq_cnt{
+	background-color:black;
+	height:40px;
+	margin-bottom:15px;
+}
+.team_section{
+	background-color:black;
+	padding:25px 0;
+}
+.team_header{
+	background-color:red;
+	height:75px;
+}
+.team_cnt_section{
+	padding:30px 0px ;
+}
+
+.team_card{
+     background-color:red;
+     height:350px;
+     width:auto;
+}
+.contact_section{
+	background:black;
+	padding:25px 0;
+}
+.contact_header{
+	background-color:red;
+	height:100px;
+}
+.contact_contents{
+	padding:30px 0 0;
+}
+.address{
+	background-color:red;
+	height:120px;
+	margin-bottom:14px;
+}
+.email{
+	background-color:red;
+	height:150px;
+}
+.call{
+	background-color:red;
+	height:150px;
+}
+.contact_form{
+	background-color:red;
+	height:280px;
+	margin-bottom:14px;
+}
+.footer_section{
+	background-color:red;
+	padding:25px 0;
+}
+.details{
+	background-color:black;
+	height:140px;
+}
+.usefull_link{
+	background-color:black;
+	height:180px;
+}
+.newsletter{
+	background-color:black;
+	height:120px;
+}
+.footer_bottom{
+	padding:25px 0 0;
+
+}
+.copyrights{
+	background-color:black;
+	height:100px;
+}
+.icons{
+	background-color:black;
+	height:100px;
+}
